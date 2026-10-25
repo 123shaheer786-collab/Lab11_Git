@@ -9,5 +9,6 @@ def main():
     size_bytes = size_kb * 1024
     print(size_mb, "MB =", round(size_kb, 2), "KB")
     print(size_mb, "MB =", round(size_bytes, 2), "bytes")
-
+    size_gb = size_mb / 1024
+    print(size_mb, "MB =", round(size_gb, 4), "GB")
 main()
